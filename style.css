@@ -160,11 +160,7 @@ img {
 		
 		grid-template-areas:
 		". menu  about cazenovia donate album."
-		". menu  about cazenovia donate album ."
-		". menu  about cazenovia donate album."
-		". menu  about cazenovia donate album."
-		". menu  about cazenovia donate album.";
-		
+
 		
 		;
 		background: lightgrey;
@@ -180,13 +176,24 @@ img {
 		grid-area:menu;
 		border:solid black;
 		font-size:30px;
+		-webkit-text-stroke: 1px black;
+			background: grey;
+		}
+		
+		.menu:hover{
+			background-color:purple;
+			color:black;
 		}
 		
 		.album{
 			grid-area:album;
 			border:solid black;
+			-webkit-text-stroke: 1px black;
 		}
-		
+		.album:hover {
+			background-color:cyan;
+			color: yellow;
+		}
 		.about{
 			grid-area:about;
 			border:solid black;

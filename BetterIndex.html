@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<title>Sarahi Photography</title>
+<style>
+	
+	
+	
+	
+	
+	body{
+			background-image: url(img/purpleTree.jpg);
+			display:grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr 1fr;
+			grid-template-areas:
+			
+			"h1 h1"
+			". face  face"
+			"menu menu menu";
+			}
+	h1 {	position: fixed;
+	text-align:center;
+			background-color: white;
+			border: solid 2px black;
+			width:100%;
+			max-height:100px;
+			grid-area:h1;
+			}
+	
+	menu Browse:hover {
+		 background-color: cyan;
+	}
+	menu About:hover {
+	
+		 background-color: cyan;
+	}
+	menu Caz:hover {
+		
+		 background-color: cyan;
+	}
+Caz img:hover {
+		
+		 background-color: cyan;
+	}
+	menu {	font-family: "Lato", sans-serif;
+			position: fixed;
+			right:0px;
+			background-color: purple;
+			border: solid 2px black;
+			height:110%;
+			text-align:center;
+			max-width:30%;;
+			margin:0px;
+	
+			grid-area: menu;
+			padding:10px;
+			
+			display:grid;
+			grid-template-columns: 1fr;
+			grid-template-rows: 1fr 1fr 1 fr;
+			grid-template-areas:
+			
+			"browse"
+			"about"
+			"caz";
+			grid-gap: 10px;
+			}
+				Browse {
+					padding-top: 100px;
+					border: solid 2px black;
+					grid-area:browse;
+					-webkit-text-stroke: 1px black;
+					background:#079;
+					color: gold;
+					font-size: 2em;
+						}
+				About {
+					padding-top: 100px;
+					border: solid 2px black;
+					background-color: lightgrey;
+					grid-area: about;
+					-webkit-text-stroke: 1px black;
+					background:#079;
+					color: gold;
+					font-size: 2em;
+					}
+				Caz{
+					padding-top: 100px;
+				
+					border: solid 2px black;
+				
+					grid-area: caz;
+					-webkit-text-stroke: 1px black;
+					background:#079;
+					color: gold;
+					font-size: 2em;
+					}
+	
+		face img{
+			position:fixed;
+			left:35%;
+			max-width:500px;
+			border-radius: 50%;
+			box-shadow: 10px 0px 10px 10px black;
+			grid-area: face;
+			top: 10%;
+		
+		
+		}
+		contact{
+		 background-color: purple;
+		overflow: hidden;
+		position: fixed;
+		bottom: 0;
+		width: 110%;
+		text-align:center;
+		height:2%;
+		padding:30px;
+		border: 2px solid black;
+		}
+		contact:hover {
+		 background-color: cyan;
+		overflow: hidden;
+		position: fixed;
+		bottom: 0;
+		width: 110%;
+		text-align:center;
+		height:2%;
+		padding:30px;
+		border: 2px solid black;
+		}
+			
+		
+		url1 {
+				background-color: white;
+				border: 2px solid black;
+				padding:10px;
+				padding-color:red;
+		}
+	contact url1:hover {
+
+		text-decoration:none;
+		 background-color: grey;
+	
+	}
+		
+</style>
+<head>
+
+</head>
+<body>
+	<h1> Sarahi Photography</h1>
+	
+	<face> <img src="img/Face.jpg"/> </face>
+	
+	<menu>
+		<Browse><a href="SarahiGalleryPage.html">Browse Photos</a></Browse>
+		<br/>
+		<About><a href="">About Sarahi</a></About>
+		<br/>
+		<a href="http://www.cazenovia.edu/"><img src="caz.gif" style="display:block; position: fixed; top: 660px;"/><Caz>Cazenovia</Caz></a>
+		<br/>
+		<br/>
+	</menu>
+
+	<contact>
+		<twitter><img src="twitter-icon.png" style="max-height:35px;"></twitter>
+	
+	<a href="https://twitter.com/sxrxhi182"><url1> @sxrxhi182 </url1></a>
+		
+	
+		<insta><img src="insta-icon.png" style="max-height: 35px;"></insta>
+	
+	<a href="https://www.instagram.com/sarahi.photography/"><url1>sarahi.photograhpy</url1></a>
+	</contact>
+
+</body>	
+
+
+
+</html>
