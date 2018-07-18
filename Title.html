@@ -5,6 +5,84 @@
 	body{
 	background:cyan;
 	}
+	
+	.Heading{
+		border: 3px solid yellow;
+		width:50%;
+		position:relative;
+		left:10em;
+		text-align:center;
+		-webkit-text-stroke: 1px black;
+			color:yellow;
+			box-shadow: 0px 10px 10px 10px black;
+		font-size: 40px;
+	}
+	
+	h3 {
+		background:orange;
+		border: 5px solid yellow;
+		box-shadow: -10px 10px 15px;
+	}
+	.linkList{
+		border: 3px solid yellow;
+		width:30%;
+		float:left;
+		text-align:center;
+		padding:10px;
+		background: #09C8D8;
+		margin:3em;
+		
+	}
+	
+	.linkList:hover{
+		box-shadow: -10px 10px 10px black;
+		}
+	
+	.linkList div{
+	border:2px solid yellow;
+	line-height:25px;
+	}
+	.linkList div:hover{
+		border:2px solid orange;
+		background: lightgrey;
+	}
+	
+	.about{
+		border: 3px solid yellow;
+		width:55%;
+		float:right;
+		padding:35px;
+		background: #09C8D8;
+		font-size: 25px;
+		line-height:50px;
+		box-shadow: 10px 10px 10px black;
+	}
+	
+	.Khan{
+	position:fixed;
+		clear:left;
+		border: 10px solid lightgreen;
+		width:50%;
+		background:white;
+		text-align: center;
+		box-shadow: 10px 10px 10px;
+		bottom: 100px;
+		left: 30%;
+		
+	}
+	
+	.promote{
+		border: 3px solid yellow;
+	}
+	#monkey{
+		max-width: 300px;
+		display: block;
+		position:relative;
+		left:33%;
+		
+		
+		
+	}
 </style>
 <head>
 <link rel="shortcut icon" type="icon/jpg" href="monkeyIcon.jpg">
@@ -12,23 +90,32 @@
 <body>
 	<div class="mainWrap">	
 	
-			<h1> <p>Aquatic Monkey</p></h1>
-		
+			<h1 class="Heading"> <img id="monkey" src="AquaticLogo1.jpg"/><p>Aquatic Monkey</p></h1>
+			
+
+			<div class="linkList">
+				<h3> Find What You Are<br/> Looking For Here:</h3>
+				<a href="/../BetterIndex.html"><div><p>Sarahi Photography</p></div></a>
+				<div>Link</div>
+				<div>Link</div>
+				<div>Link</div>
+				<div>Link</div>
+				<div>Link</div>
+			</div>
 
 			
-			<div><p><a href="BetterIndex.html">Sarahi's Portfolio</a></p></div>
-			<div>Link</div>
-			<div>Link</div>
-			<div>Link</div>
-			<div>Link</div>
-			<div>Link</div>
-
-
 			
 			
+			<p class="about"> AquaticMonkey is an independent idea and initiative started in July of 2018 by Rahb Young, an International Studuies and Psychology student at Cazenovia College. This congregation of websites is meant to share
+			and promote other's qualities and aspirations through AquaticMonkey web-development as well as provide an outlet for the creator to practice and develope their own skills in web-development. AquaticMonkey is made possible 
+			by Github and it's convenient public repositories. AquaticMonkey gives special thanks to KhanAcademy for providing the education and fundamentals to make this possible. </p>
 			
 			
+			<div class="Khan">Visit Khan Academy to discover a wealth of information and walkthroughs on major curriculums and subjects</div>
 			
+			<div class="author"> </div>
+			
+			<div class="promote"></div>
 			
 			
 			
